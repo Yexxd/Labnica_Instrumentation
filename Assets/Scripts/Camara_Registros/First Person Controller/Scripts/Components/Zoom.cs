@@ -9,6 +9,7 @@ public class Zoom : MonoBehaviour
     [Range(0, 1)]
     public float currentZoom;
     public float sensitivity = 1f;
+    private bool stateZoom = false;
 
 
     void Awake()
@@ -23,13 +24,15 @@ public class Zoom : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.Q))
+        if (Input.GetKeyDown(KeyCode.Q) && stateZoom == false)
         {
-            currentZoom = 1;         
+            currentZoom = 1;
+            stateZoom = true;
         }
-        else 
+        else if(Input.GetKeyDown(KeyCode.Q) && stateZoom == true)
         { 
-            currentZoom = 0;           
+            currentZoom = 0;
+            stateZoom = false;
         }
 
         // Update the currentZoom and the camera's fieldOfView.

@@ -2055,6 +2055,30 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1008165726}
   m_CullTransparentMesh: 1
+--- !u!1 &1061460906 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8463954456288561315, guid: 6ffd7f62ccd99f942b6e11ce589b0936, type: 3}
+  m_PrefabInstance: {fileID: 6828029911909657046}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1061460907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1061460906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c40de33490ded347b04a2cce977622d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_InstrumentState: 0
+  m_PositiveConnector: {fileID: 8888912739878791988}
+  m_NegativeConnector: {fileID: 8888912739709432760}
+  mPantallaTransmitter: {fileID: 6828029911909657048}
+  m_TextPresion: {fileID: 6828029911909657047}
+  m_Tanque: {fileID: 8041259381569096241}
+  m_HandTerminal: {fileID: 8530451736091330893}
 --- !u!1 &1081821822 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2206434502230303181, guid: 1b40c133e5f74734697dd4d45cd160d4, type: 3}
@@ -5600,6 +5624,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 9040039725670765389, guid: d3f6c94338dab6b488a35a78587e9e03, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9040039725670765389, guid: d3f6c94338dab6b488a35a78587e9e03, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9040039725670765389, guid: d3f6c94338dab6b488a35a78587e9e03, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9040039725670765389, guid: d3f6c94338dab6b488a35a78587e9e03, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9040039725670765389, guid: d3f6c94338dab6b488a35a78587e9e03, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 9040039725670765389, guid: d3f6c94338dab6b488a35a78587e9e03, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -320
+      objectReference: {fileID: 0}
     - target: {fileID: 9040039725670765390, guid: d3f6c94338dab6b488a35a78587e9e03, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
@@ -6583,7 +6631,7 @@ MonoBehaviour:
   m_NegativeConnector: {fileID: 7898250185301164181}
   mPantallaVoltimetro: {fileID: 1658797702}
   mTextVoltaje: {fileID: 2559769155494248193}
-  mTransmisor: {fileID: 0}
+  mTransmisor: {fileID: 1061460907}
 --- !u!4 &2559769155494248197 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4024361607114654893, guid: 102e8a01ab8bb3c4987329148be6572b, type: 3}
@@ -7051,7 +7099,7 @@ MonoBehaviour:
   m_NegativeConnector: {fileID: 6323421591564767513}
   mPantallaAmp: {fileID: 834648221}
   mTextCorriente: {fileID: 6323421591564767515}
-  mTransmisor: {fileID: 0}
+  mTransmisor: {fileID: 1061460907}
 --- !u!4 &6323421591564767519 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1346991732019028414, guid: f41d13e980c34bd48983bedf7363bed5, type: 3}
@@ -7839,6 +7887,38 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -3.631
       objectReference: {fileID: 0}
+    - target: {fileID: 2772945003759978355, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772945003759978355, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772945003759978355, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
+      propertyPath: m_FontData.m_FontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772945003778253842, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772945003778253842, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772945003778253842, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
+      propertyPath: m_FontData.m_FontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772945003796914971, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772945003796914971, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
+      propertyPath: m_FontData.m_FontStyle
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2772945003838810772, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -7863,6 +7943,38 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: HandTerminal, Assembly-CSharp
       objectReference: {fileID: 0}
+    - target: {fileID: 2772945003948745857, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772945003948745857, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
+      propertyPath: m_FontData.m_FontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772945003951743772, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772945003951743772, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772945003951743772, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
+      propertyPath: m_FontData.m_FontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772945003965425037, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772945003965425037, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772945003965425037, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
+      propertyPath: m_FontData.m_FontStyle
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2772945004053592483, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -7886,6 +7998,18 @@ PrefabInstance:
     - target: {fileID: 2772945004119542248, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: HandTerminal, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772945004145554767, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772945004145554767, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772945004145554767, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
+      propertyPath: m_FontData.m_FontStyle
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2772945004173954806, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -7934,6 +8058,18 @@ PrefabInstance:
     - target: {fileID: 2772945004421086910, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: HandTerminal, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772945004421166276, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772945004421166276, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772945004421166276, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
+      propertyPath: m_FontData.m_FontStyle
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2772945004570203594, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -7963,6 +8099,18 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2772945004789470082, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772945004789470082, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772945004789470082, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
+      propertyPath: m_FontData.m_FontStyle
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2772945004790798657, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -7974,6 +8122,30 @@ PrefabInstance:
     - target: {fileID: 2772945004790798657, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: HandTerminal, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772945004854242118, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772945004854242118, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772945004854242118, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
+      propertyPath: m_FontData.m_FontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772945004938099645, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772945004938099645, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772945004938099645, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
+      propertyPath: m_FontData.m_FontStyle
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2772945005041937227, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -7998,6 +8170,18 @@ PrefabInstance:
     - target: {fileID: 2772945005133564513, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: HandTerminal, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772945005155084513, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772945005155084513, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772945005155084513, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
+      propertyPath: m_FontData.m_FontStyle
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2772945005263709717, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -8039,6 +8223,38 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: HandTerminal, Assembly-CSharp
       objectReference: {fileID: 0}
+    - target: {fileID: 2772945005470351884, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772945005470351884, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772945005470351884, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
+      propertyPath: m_FontData.m_FontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772945005482104577, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772945005482104582, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
+      propertyPath: m_Text
+      value: '-'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772945005482104582, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772945005482104582, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772945005482104582, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
+      propertyPath: m_FontData.m_FontStyle
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2772945005514938714, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -8051,6 +8267,42 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: HandTerminal, Assembly-CSharp
       objectReference: {fileID: 0}
+    - target: {fileID: 2772945005568849176, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772945005568849176, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772945005568849176, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
+      propertyPath: m_FontData.m_FontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772945005587280906, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772945005587280906, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772945005587280906, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
+      propertyPath: m_FontData.m_FontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772945005588796939, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772945005588796939, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772945005588796939, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
+      propertyPath: m_FontData.m_FontStyle
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2772945005627631447, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -8062,6 +8314,18 @@ PrefabInstance:
     - target: {fileID: 2772945005627631447, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: HandTerminal, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772945005679639868, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772945005679639868, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772945005679639868, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
+      propertyPath: m_FontData.m_FontStyle
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2790330765888932905, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -8245,7 +8509,7 @@ MonoBehaviour:
   mText2: {fileID: 8530451736091330886}
   mText3: {fileID: 8530451736091330885}
   mText4: {fileID: 8530451736091330884}
-  mTransmisor: {fileID: 0}
+  mTransmisor: {fileID: 1061460907}
 --- !u!4 &8530451736091330904 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7078822278662783304, guid: 49e3b65a2ed31e9479ac3a13f7c3459b, type: 3}
@@ -8256,8 +8520,30 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2709418811627330144, guid: 6ffd7f62ccd99f942b6e11ce589b0936, type: 3}
   m_PrefabInstance: {fileID: 6828029911909657046}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &8888912739709432760 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4135870337382944516, guid: 6ffd7f62ccd99f942b6e11ce589b0936, type: 3}
+  m_PrefabInstance: {fileID: 6828029911909657046}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8888912739709432758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f3ae14b9bd30eb43a8c9767f5d25fff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8888912739878791987 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2709418811730592485, guid: 6ffd7f62ccd99f942b6e11ce589b0936, type: 3}
   m_PrefabInstance: {fileID: 6828029911909657046}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &8888912739878791988 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4135870337284921217, guid: 6ffd7f62ccd99f942b6e11ce589b0936, type: 3}
+  m_PrefabInstance: {fileID: 6828029911909657046}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8888912739878791987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f3ae14b9bd30eb43a8c9767f5d25fff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
