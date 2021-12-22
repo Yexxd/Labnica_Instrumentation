@@ -7608,6 +7608,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 4.69
       objectReference: {fileID: 0}
+    - target: {fileID: 688316992, guid: da22b52aaa7f2f040bdb302eeb1090d5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8041259381569096241}
+    - target: {fileID: 688316992, guid: da22b52aaa7f2f040bdb302eeb1090d5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: EjecutarBtn
+      objectReference: {fileID: 0}
     - target: {fileID: 965136243, guid: da22b52aaa7f2f040bdb302eeb1090d5, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -7627,6 +7635,14 @@ PrefabInstance:
     - target: {fileID: 1385180075, guid: da22b52aaa7f2f040bdb302eeb1090d5, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -8.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1385180076, guid: da22b52aaa7f2f040bdb302eeb1090d5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8041259381569096241}
+    - target: {fileID: 1385180076, guid: da22b52aaa7f2f040bdb302eeb1090d5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: EjecutarBtn
       objectReference: {fileID: 0}
     - target: {fileID: 2125459724, guid: da22b52aaa7f2f040bdb302eeb1090d5, type: 3}
       propertyPath: m_SizeDelta.x
@@ -7735,6 +7751,67 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 1122551123, guid: da22b52aaa7f2f040bdb302eeb1090d5, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: da22b52aaa7f2f040bdb302eeb1090d5, type: 3}
+--- !u!1 &8041259381569096236 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1122551122, guid: da22b52aaa7f2f040bdb302eeb1090d5, type: 3}
+  m_PrefabInstance: {fileID: 8041259381569096235}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8041259381569096237 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 45977014, guid: da22b52aaa7f2f040bdb302eeb1090d5, type: 3}
+  m_PrefabInstance: {fileID: 8041259381569096235}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8041259381569096238 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2125459725, guid: da22b52aaa7f2f040bdb302eeb1090d5, type: 3}
+  m_PrefabInstance: {fileID: 8041259381569096235}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8041259381569096239 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 421405544, guid: da22b52aaa7f2f040bdb302eeb1090d5, type: 3}
+  m_PrefabInstance: {fileID: 8041259381569096235}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &8041259381569096240 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5549367187922082322, guid: da22b52aaa7f2f040bdb302eeb1090d5, type: 3}
+  m_PrefabInstance: {fileID: 8041259381569096235}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8041259381569096241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8041259381569096240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4371fe890807bbc43a4288d44e8d140b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_textValvula1: {fileID: 8041259381569096239}
+  m_textValvula2: {fileID: 8041259381569096238}
+  m_Liquido: {fileID: 8041259381569096236}
+  mTextContenidoTank: {fileID: 8041259381569096237}
+  speed: 0.1
+  m_Redliquido: 0.035
 --- !u!1001 &8530451736091330883
 PrefabInstance:
   m_ObjectHideFlags: 0
