@@ -22,7 +22,7 @@ public class TxtController : MonoBehaviour
             string[] _segmentedlastStudentInfo = _lastStudentInfo.Split(',');
 
             //Extraemos la informacion del estudiante para ser usada
-            _studentRegister._studentCode = int.Parse(_segmentedlastStudentInfo[0]);
+            _studentRegister._studentCode = float.Parse(_segmentedlastStudentInfo[0]);
             _studentRegister._studentName = _segmentedlastStudentInfo[1];
             _studentRegister._studentAge = int.Parse(_segmentedlastStudentInfo[2]);
             _studentRegister._studentGenre = int.Parse(_segmentedlastStudentInfo[3]);
@@ -40,8 +40,8 @@ public class TxtController : MonoBehaviour
             _checkRegister._checkID = 0;
 
             //Registramos los datos de la sesion al iniciar la aplicacion.
-            _studentRegister._studentCode = int.Parse(_segmentedlastStudentInfo[0]); //extraer del registor de estudiante
-            _sessionRegister._studentID = int.Parse(_segmentedlastStudentInfo[0]); //extraer del registor de estudiante
+            _studentRegister._studentCode = float.Parse(_segmentedlastStudentInfo[0]); //extraer del registor de estudiante
+            _sessionRegister._studentID = float.Parse(_segmentedlastStudentInfo[0]); //extraer del registor de estudiante
             _sessionRegister._sessionStartTime = DateTime.Now;
             _sessionRegister._sessionEndTime = DateTime.MinValue;
             WriteSessionInfo();

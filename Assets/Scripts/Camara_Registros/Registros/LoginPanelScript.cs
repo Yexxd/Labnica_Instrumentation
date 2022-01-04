@@ -44,12 +44,12 @@ public class LoginPanelScript : MonoBehaviour
         {
             //Guardamos informacion del estudiante en el primer registro
             _txtController._studentRegister._studentName = _ifName.text;
-            _txtController._studentRegister._studentCode = int.Parse(_ifCode.text);
+            _txtController._studentRegister._studentCode = float.Parse(_ifCode.text);
             _txtController._studentRegister._studentAge = int.Parse(_ifAge.text);
             _txtController._studentRegister._studentGenre = _ifGenre.value;
 
             //Guardamos informacion de la primera sesion
-            _txtController._sessionRegister._studentID = int.Parse(_ifCode.text);
+            _txtController._sessionRegister._studentID = float.Parse(_ifCode.text);
             _txtController._sessionRegister._sessionID = 1;
             _txtController._sessionRegister._sessionStartTime = System.DateTime.Now;
             _txtController._sessionRegister._sessionEndTime = System.DateTime.MinValue;
