@@ -7,7 +7,7 @@ public class SessionInfo : MonoBehaviour
 {
     public TxtController DBRegister;
 
-    public float _studentID;
+    public string _studentID;
     public int _sessionID = 0;
     public DateTime _sessionStartTime;
     public DateTime _sessionEndTime;

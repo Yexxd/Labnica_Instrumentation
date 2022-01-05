@@ -7,7 +7,7 @@ public class StudentInfo : MonoBehaviour
     public TxtController DBRegister;
 
     public string _studentName;
-    public float _studentCode;
+    public string _studentCode;
     public int _studentAge;
     public int _studentGenre;
 
